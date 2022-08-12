@@ -1,0 +1,134 @@
+
+
+header{
+    width: 80%;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    background: #FC7987;
+    color: white;
+    padding: 20px;
+    border: 30px solid white;
+}
+
+img{
+    width: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.aic{
+    align-items: center;
+}
+
+.s-b{
+    justify-content: space-between;
+}
+
+.g-10{
+    gap: 10px;
+}
+
+.g-30{
+    gap: 30px;
+}
+
+.clmn{
+    flex-direction: column;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+aside{
+    padding-top: 420px;
+    padding-left: 20px;
+    width: 66%;
+    color: white;
+    background: #242121;
+}
+
+main{
+    padding: 420px 20px 20px 20px;
+}
+
+.tel{
+    display: flex;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+ main h3{ 
+    display: inline;
+    color: white;
+    background: #FC7987;
+    padding: 3px;
+}
+
+aside h3{
+    color: #FC7987;
+}
+
+strong{
+    font-weight: bold;
+}
+
+aside article , main article{
+    margin: 20px 0;
+}
+
+.m-20-0{
+    margin: 20px 0;
+}
+
+.mb-15{margin-bottom: 15px;}
+
+main li::before{
+    content: "→";
+}
+
+.b-b{
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #FC7987;
+}
+
+@media (max-width: 792px){
+
+    header{
+       left: 2%;
+       border: none
+    }
+
+    aside{
+        width: 100%;
+        padding-top: 500px;
+        padding-bottom: 50px;
+    }
+
+    main{
+        padding-top: 20px;
+    }
+
+    .tel{
+        flex-direction: column;
+    }
+}
