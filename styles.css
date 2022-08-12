@@ -111,6 +111,24 @@ main li::before{
     border-bottom: 2px dashed #FC7987;
 }
 
+progress{
+    width: 50%;
+    border-radius: 50px;
+    height: 10px;
+    margin: 10px 0;
+    background: white;
+}
+
+progress::-moz-progress-bar { 
+    background: #FC7987; 
+}
+
+progress::-webkit-progress-value { 
+    background: #FC7987; 
+    height: 5px;
+}
+
+
 @media (max-width: 792px){
 
     header{
